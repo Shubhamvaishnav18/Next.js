@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Squid - Beautiful Landing Page
 
-## Getting Started
+This is a modern full-stack SaaS dashboard application built with Next.js (App Router) and Tailwind CSS. It includes authentication pages (Login/Register), a responsive landing page, a dynamic dashboard, user management with search, alphabetical sorting, pagination, animated detail modal.
 
-First, run the development server:
+The project focuses on clean UI design, reusable components, responsive layouts, and smooth user experience while maintaining scalable structure and modern best practices.
 
+---
+
+## 🚀 Setup
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd <project-folder>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Run development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Features Checklist
 
-To learn more about Next.js, take a look at the following resources:
+-  Landing Page
+-  Responsive Design
+-  Login Page
+-  Register Page
+-  Dashboard Layout
+-  Sidebar Navigation
+-  Topbar with User Info
+-  Users Page
+-  Search Users by Name
+-  Alphabetical Sorting (A → Z)
+-  Pagination (6 users per page)
+-  Animated User Detail Modal
+-  Settings Page
+-  Profile Edit Functionality
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features Checklist
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Used Next.js App Router for modern routing structure.
+- Used Tailwind CSS v4 for faster UI development and consistency.
+- Used Context API for theme management instead of external state libraries.
+- Implemented client-side sorting and pagination for simplicity.
+- Used JSONPlaceholder API for mock user data instead of building a backend.
+- Focused on UI consistency and responsiveness over backend complexity.
