@@ -6,6 +6,14 @@ The project focuses on clean UI design, reusable components, responsive layouts,
 
 ---
 
+## 🛠️ Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+
+---
+
 ## 🚀 Setup
 
 ### 1. Clone the repository
@@ -45,7 +53,7 @@ npm run dev
 
 ---
 
-## Features Checklist
+## Decisions / Tradeoffs
 
 - Used Next.js App Router for modern routing structure.
 - Used Tailwind CSS v4 for faster UI development and consistency.
